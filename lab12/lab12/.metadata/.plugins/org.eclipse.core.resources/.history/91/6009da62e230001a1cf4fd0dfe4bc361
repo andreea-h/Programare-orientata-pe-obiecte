@@ -1,0 +1,5 @@
+import java.util.*;
+
+public class Channel extends Observable {
+	ArrayList<User> users = new ArrayList<User>();
+}

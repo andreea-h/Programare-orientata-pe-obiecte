@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Table {
+	Vector [][] vect;
+	
+	class AsciiPrinter {
+		
+	}
+	
+	class CsvPrinter {
+		
+	}
+}

@@ -1,0 +1,17 @@
+
+public class Ouch {
+	static int ouch = 7 ;
+	
+	public static void main(String[] args) {
+		new Ouch().go(ouch);
+		System.out.println(ouch);
+		Ouch myOuch = new Ouch();
+		System.out.println(myOuch.ouch);
+	}
+	
+	void go(int ouch) {
+		ouch++;
+		System.out.println(" "+ouch);
+	}
+
+}

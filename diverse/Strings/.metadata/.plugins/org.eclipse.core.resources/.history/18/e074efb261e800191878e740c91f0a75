@@ -1,0 +1,30 @@
+import java.util.*;
+public class Problema3 {
+	
+	int aparitii(Vector vect, int x) {
+		int i;
+		int k=0;
+		for( i=0; i < vect.size()-1; i++)
+			if(vect.get(i).equals(x)) {
+				k++;
+				vect.remove(i);
+			}
+		return k;
+	}
+
+	public static void main(String[] args) {
+		Vector vect = new Vector();
+		//String s = "ana";
+		int i;
+		for( i=0; i<19; i++) {
+			Random generator = new Random();
+			int nr = generator.nextInt(10);
+			vect.add(nr);
+			System.out.println(vect.get(i));
+			Problema3 object = new Problema3();
+			object.aparitii(vect, 9);
+		//	System.out.println(object.aparitii(vect, 9));
+		}
+	}
+
+}

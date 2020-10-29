@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+public class Filtru implements FilenameFilter {
+	Vector extensions; //extensiile acceptate
+	Vector words;  //cuvintele acceptate
+	
+	public Filtru(String FilePath1, String FilePath2) {
+		extensions = new Vector();
+		words = new Vector();
+		try
+	}
+	
+	public boolean accept(File f, String s) {
+		
+		boolean ok = false;
+		return ok;
+		
+	}
+}

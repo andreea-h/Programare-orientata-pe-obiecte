@@ -1,0 +1,8 @@
+class Test {
+	public static void main(String args[]) {
+		Paralelogram test = new Paralelogram(10,20,30,150);
+		System.out.println(test.latura1+" "+test.latura2+" "+test.latura3+" "+test.latura4);
+		//System.out.println(test.unghi1+" "+test.unghi2+" "+test.unghi3+" "+test.unghi4);
+		System.out.println(test.arie);
+	}
+}

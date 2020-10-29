@@ -1,0 +1,10 @@
+import java.util.*;
+public class Problema4 {
+
+	public static void main(String[] args) {
+		Vector vect1 = new Vector();
+		Vector vect2 = new Vector();
+
+	}
+
+}

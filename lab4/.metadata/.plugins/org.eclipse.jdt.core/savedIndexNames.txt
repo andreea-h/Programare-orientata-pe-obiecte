@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/home/andreea/eclipse-workspace/lab4/.metadata/.plugins/org.eclipse.jdt.core
+1564326789.index
+3291802175.index
+3376067333.index
+708479763.index
+3026067120.index

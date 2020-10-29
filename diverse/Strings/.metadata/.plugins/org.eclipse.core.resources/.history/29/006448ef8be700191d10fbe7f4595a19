@@ -1,0 +1,7 @@
+
+public class NrAparitii {
+	public int Aparitii(String s1, String s2) {
+		
+	}
+
+}

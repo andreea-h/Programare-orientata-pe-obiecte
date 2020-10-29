@@ -1,0 +1,22 @@
+
+class MyException extends Exception {
+	
+}
+
+public class Houdini {
+	public static void main(String args[]) throws Exception {
+		try {
+			throw new MyException();
+		}
+		catch(MyException e) {
+			System.out.println("S-a aruncat o exceptie");
+		}
+		finally {
+		System.out.println("success");
+		}
+		
+		//throw new MyException() ;
+		int v[]=new int[10];
+		
+	}
+}

@@ -1,0 +1,20 @@
+
+abstract class Product {
+	
+}
+
+class Book extends Product {
+	
+}
+
+class Food extends Product {
+	
+}
+
+class Beverage extends Product {
+	
+}
+
+class Computer extends Product {
+	
+}

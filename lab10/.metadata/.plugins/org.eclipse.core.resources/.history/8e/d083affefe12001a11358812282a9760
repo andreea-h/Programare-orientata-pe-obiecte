@@ -1,0 +1,18 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+import javax.swing.event.*;
+
+public class Buton extends JFrame  {
+	JButton b = new Button("Colors");
+	public Buton(String titlu) {
+		super(titlu);
+		this.setSize(100,100);
+		setLayout(new FlowLayout());
+	}
+	
+	public void setForeground(Color c) {
+		b.setTextColor(c);
+	}
+}

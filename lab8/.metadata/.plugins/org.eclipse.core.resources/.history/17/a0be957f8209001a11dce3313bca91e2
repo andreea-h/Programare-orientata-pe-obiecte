@@ -1,0 +1,45 @@
+import java.util.*;
+class LinkedList<Integer> implements Iterable<Integer> {
+	//primul si ultimul nod din lista
+	static Node first, last;
+	private static class Node {
+		 Integer data;
+		 Integer next;
+		static private Node(Integer data) {
+			this.data=data;
+		}
+		
+		public Node(Integer data) {
+			
+		}
+	}
+	
+	class ListIterator<Integer> implements Iterator<Integer> {
+		
+		public boolean hasNext() {
+			
+		}
+		public Integer next() {
+			
+		}
+	}
+	
+	//Insereaza un nod la inceputul listei
+	public void addFirst(Integer data) {
+		
+	}
+	//Insereaza un nod la sfarsitul listei
+	public void add(Integer data) {
+		this.add(data);
+	}
+	//Returneaza primul nod din lista
+	public Integer getNode() {
+		return this.getNode();
+	}
+	//Returneaza un obiect de tip ListIterator
+	public Iterator<Integer> iterator() {
+		return this.iterator();
+	}
+	
+	
+}

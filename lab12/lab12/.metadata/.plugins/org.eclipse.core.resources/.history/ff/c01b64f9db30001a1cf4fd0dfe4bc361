@@ -1,0 +1,25 @@
+import java.util.*;
+
+class Product {
+	float pret;
+	String nume;
+}
+
+public class ShopSingleton {
+	String name;
+	ArrayList<Product> products;
+	
+	private ShopSingleton() {
+		
+	}
+	
+	public ShopSingleton instance = null;
+	
+	public 
+	
+	void showProducts() {
+		for(Product a:products) {
+			System.out.println(a.nume+"->"+a.pret+"\n");
+		}
+	}
+}

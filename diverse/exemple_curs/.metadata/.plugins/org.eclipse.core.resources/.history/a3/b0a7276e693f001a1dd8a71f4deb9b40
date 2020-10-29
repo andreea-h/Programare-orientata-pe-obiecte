@@ -1,0 +1,18 @@
+import java.util.*;
+
+class Top {
+	public Top() {
+		
+	}
+public Top(String s) { System.out.print("B"); }
+}
+ class Bottom2 extends Top {
+public Bottom2(String s) { System.out.print("D");}
+public static void main(String [] args) {
+new Bottom2("C");
+	System.out.println(" ");
+	List list = new ArrayList();
+	list.add(0,59);
+	int total =(Integer) list.get(0);
+	System.out.println(total);
+} }

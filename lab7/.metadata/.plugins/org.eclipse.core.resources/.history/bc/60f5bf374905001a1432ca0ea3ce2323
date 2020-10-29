@@ -1,0 +1,26 @@
+import java.util.*;
+public class SListSet extends LinkedList implements SortedSet {
+	Comparator comp;
+	SListSet obj;
+	public Object first() {
+		return super.getFirst();
+	}
+	public Object last() {
+		return super.getLast();
+	}
+	
+	public SortedSet subSet(Object from) {
+		SortedSet rez=null;
+		return rez;
+	}
+	
+	public SortedSet headSet(Object to) {
+		return this.headSet(to);
+	}
+	public SortedSet tailSet(Object from) {
+		return this.tailSet(from);
+	}
+
+	
+	
+}

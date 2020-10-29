@@ -1,0 +1,22 @@
+
+public class Test {
+	ShopSingleton shop = ShopSingleton.getInstance();
+	
+	void addProduct(Product a) {
+		if(!shop.products.contains(a))
+			shop.products.add(a);
+	}
+	
+	void removeProduct(Product a) {
+		if(shop.products.contains(a))
+			shop.products.remove(a);
+	}
+	
+	public Product getCheapestProduct() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

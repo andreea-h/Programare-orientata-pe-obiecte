@@ -1,0 +1,18 @@
+
+class MyException extends Exception {
+	
+}
+
+public class Houdini {
+	public static void main(String args[]) throws Exception {
+		try {
+			throw new MyException();
+		}
+		catch(MyException e) {
+			
+		}
+		finally {
+		System.out.println("success");
+		}
+	}
+}

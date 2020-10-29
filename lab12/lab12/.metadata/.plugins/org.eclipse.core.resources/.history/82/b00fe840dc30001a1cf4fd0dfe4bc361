@@ -1,0 +1,4 @@
+
+public class Test {
+	ShopSingleton shop = shop.getInstance();
+}

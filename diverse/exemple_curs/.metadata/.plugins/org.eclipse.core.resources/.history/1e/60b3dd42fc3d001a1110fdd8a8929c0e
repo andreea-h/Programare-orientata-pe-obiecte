@@ -1,0 +1,8 @@
+import java.util.*;
+
+class SortedVector extends Vector{
+	Comparator myComp;
+	public SortedVector(Comparator myComp) {
+		this.myComp = myComp;
+	}
+}

@@ -1,0 +1,11 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		List<?> someList = new ArrayList<String>();
+		((ArrayList<Integer>)someList).add(1);
+		System.out.print(someList);
+
+	}
+
+}

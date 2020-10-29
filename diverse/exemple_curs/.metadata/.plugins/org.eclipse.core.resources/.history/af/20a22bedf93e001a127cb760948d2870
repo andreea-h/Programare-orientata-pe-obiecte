@@ -1,0 +1,19 @@
+
+public class X {
+	
+	private final void met() {
+		System.out.println("A");
+	}
+} 
+
+class Y extends X {
+	public final void met() {
+		System.out.println("B");
+	}
+	public static void main(String[] args) {
+		new Y().met();
+		int x=0;
+		System.out.println(x/0);
+	}
+
+}

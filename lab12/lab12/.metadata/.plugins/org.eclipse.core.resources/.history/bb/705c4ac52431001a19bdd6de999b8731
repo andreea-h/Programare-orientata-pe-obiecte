@@ -1,0 +1,14 @@
+import java.util.*;
+
+abstract class Repository {
+	abstract public int accept();
+}
+
+class Fisier extends Repository {
+	
+}
+
+class Director extends Repository {
+	ArrayList<Repository> content = new ArrayList<Repository>();
+}
+

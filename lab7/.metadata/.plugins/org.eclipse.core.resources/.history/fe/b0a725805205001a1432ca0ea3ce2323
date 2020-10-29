@@ -1,0 +1,7 @@
+ class Test5 {
+	public static void main(String[] args) {
+		Problema5 test = new Problema5();
+		test.a2=test.creeazaMap("/home/andreea/Desktop/SD/tema2");
+		test.afisare();
+	}
+}

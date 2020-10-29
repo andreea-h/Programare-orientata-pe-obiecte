@@ -1,0 +1,14 @@
+import java.util.*;
+import java.io.*;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		Cat obj = new Cat();
+		File file = new File("/home/andreea/Downloads/PROIECT");
+		File[] files = file.listFiles();
+		for(File f:files) {
+		
+		}
+	}
+}

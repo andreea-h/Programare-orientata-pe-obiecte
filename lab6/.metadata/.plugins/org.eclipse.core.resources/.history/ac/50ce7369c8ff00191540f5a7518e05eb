@@ -1,0 +1,26 @@
+import java.util.*;
+public class Test3 {
+
+	public static void main(String[] args) {
+		Vector studenti = new Vector();
+		Student s1 = new Student("Georgescu",2);
+		s1.addMedie(9.2);
+		s1.addMedie(6.2);
+		Student s2 = new Student("Alexandrescu",2);
+		s2.addMedie(9.2);
+		s2.addMedie(8.3);
+		Student s3 = new Student("Georgescu",2);
+		s3.addMedie(9);
+		s3.addMedie(10);
+		Student s4 = new Student("Avram",2);
+		s4.addMedie(9);
+		s4.addMedie(10);
+		studenti.add(s1);
+		studenti.add(s2);
+		studenti.add(s3);
+		studenti.add(s4);
+		System.out.println(studenti);
+		
+	}
+
+}

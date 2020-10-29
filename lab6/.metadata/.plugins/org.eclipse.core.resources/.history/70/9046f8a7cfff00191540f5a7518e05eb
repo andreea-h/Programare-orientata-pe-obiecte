@@ -1,0 +1,8 @@
+
+public class Tren {
+
+}
+
+abstract class Vagon {
+	
+}

@@ -1,0 +1,15 @@
+
+class Fractie {
+	
+	double numarator;
+	double numitor;
+	public Fractie(double numarator, double numitor) {
+		this.numarator=numarator;
+		this.numitor=numitor;
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

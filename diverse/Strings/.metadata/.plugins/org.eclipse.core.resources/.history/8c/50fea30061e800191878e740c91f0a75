@@ -1,0 +1,16 @@
+import java.util.*;
+public class Problema3 {
+
+	public static void main(String[] args) {
+		Vector vect = new Vector();
+		//String s = "ana";
+		int i;
+		for( i=0; i<19; i++) {
+			Random generator = new Random();
+			int nr = generator.nextInt(10);
+			vect.add(nr);
+			System.out.println(vect.get(i));
+		}
+	}
+
+}

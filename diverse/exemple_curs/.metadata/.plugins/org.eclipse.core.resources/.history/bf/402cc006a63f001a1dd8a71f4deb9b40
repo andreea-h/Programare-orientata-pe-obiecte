@@ -1,0 +1,25 @@
+class Student {
+	String name;
+	
+	public Student(String a) {
+		name=a;
+	}
+	public void getInfo1() {
+		return;
+	}
+	public String getInfo2() {
+		return name;
+	}
+}
+
+class Test {
+	public static void main(String []args) {
+		Student s = new Student("fvni");
+		System.out.println(s.getInfo2());
+		s=null;
+		//s.getInfo1();
+		
+		Object []list = {new Integer(12),new String("foo"), new Boolean(true)};
+		
+	}
+}

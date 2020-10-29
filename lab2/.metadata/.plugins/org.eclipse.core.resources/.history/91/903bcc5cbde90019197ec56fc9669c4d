@@ -1,0 +1,19 @@
+
+public class Problema2 {
+
+	int aparitii(String s1, String s2) {
+		String s3[] = s1.split(" ");
+		int i;
+		for(i=0;i<s3.length;i++) {
+			if(s3[i].equals(s2)) {
+				
+			}
+		}
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

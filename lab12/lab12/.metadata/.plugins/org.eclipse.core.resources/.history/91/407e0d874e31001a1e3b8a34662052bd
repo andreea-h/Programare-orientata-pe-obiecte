@@ -1,0 +1,23 @@
+import java.util.*;
+import java.io.*;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		Cat obj = new Cat();
+		Director dir = new Director("Folder");
+		File file = new File("/home/andreea/Downloads/PROIECT");
+		File[] files = file.listFiles();
+		for(File f:files) {
+			System.out.println(f.getName());
+			Repository r = null;
+			if(f.isFile()==true) {
+				Repository r = new Fisier(f.getName());
+			}
+			else if(f.isDirectory()==true) {
+				Repository r = new Director(f.getName());
+			}
+			dir.addChild(r);
+		}
+	}
+}

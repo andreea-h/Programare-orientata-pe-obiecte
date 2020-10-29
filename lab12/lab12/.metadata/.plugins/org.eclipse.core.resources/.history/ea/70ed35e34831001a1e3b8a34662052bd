@@ -1,0 +1,12 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		Pensionar a = new Pensionar(50, 3200);
+		System.out.println(a.strategy.getClass().getName()+"->" +a.getPensie());
+		
+		Pensionar b = new Pensionar(35, 3200);
+		System.out.println(b.strategy.getClass().getName()+"->" +b.getPensie());
+	}
+
+}

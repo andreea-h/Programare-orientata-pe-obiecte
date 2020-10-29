@@ -1,0 +1,8 @@
+ class Test5 {
+	public static void main(String[] args) {
+		Problema5 test = new Problema5();
+		test.a1=test.varianta1("/home/andreea/Desktop/SD/tema2");
+		test.a2=test.varianta2("/home/andreea/Desktop/SD/tema2");
+		test.afisare();
+	}
+}
