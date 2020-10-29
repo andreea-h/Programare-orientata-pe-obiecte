@@ -1,0 +1,12 @@
+
+public class NrAparitii {
+	public int Aparitii(String s1, String s2) {
+		s2.split(" ");
+		return 1;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

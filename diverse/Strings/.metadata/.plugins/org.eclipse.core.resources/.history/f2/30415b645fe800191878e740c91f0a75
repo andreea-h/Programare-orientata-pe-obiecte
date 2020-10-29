@@ -1,0 +1,10 @@
+
+public class Problema3 {
+
+	public static void main(String[] args) {
+		Vector vect = new Vector();
+		STring s = "ana";
+
+	}
+
+}

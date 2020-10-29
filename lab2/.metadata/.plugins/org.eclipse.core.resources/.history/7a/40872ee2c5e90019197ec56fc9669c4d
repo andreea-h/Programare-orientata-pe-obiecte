@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Problema5 {
+	
+	String cenzurare(String text, String cuvinte[]) {
+		
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

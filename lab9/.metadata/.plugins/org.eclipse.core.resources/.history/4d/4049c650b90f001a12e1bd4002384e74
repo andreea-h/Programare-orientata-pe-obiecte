@@ -1,0 +1,11 @@
+import java.util.*;
+public class Test {
+
+	public static void main(String[] args) {
+		Vector key = new Vector();
+		Vector values= new Vector();
+		ArrayMap<Vector<Integer>, Vector<String>> = new ArrayMap<Vector<Integer>, Vector<String>>();
+
+	}
+
+}

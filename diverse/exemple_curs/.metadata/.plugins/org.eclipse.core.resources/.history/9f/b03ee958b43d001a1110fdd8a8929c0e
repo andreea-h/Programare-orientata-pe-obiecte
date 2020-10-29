@@ -1,0 +1,16 @@
+package prb1;
+
+class Rectangle {
+int x, y, width, height;
+Point origin; // originea – x si y
+Dimension d; //dimensiunea – latime si inaltime
+public Rectangle() { … };
+public Rectangle (int x, int y, int w, int h) { … };
+public Rectangle (Point p, Dimension d) { … };
+public void setLocation( int x, int y) { … };
+public void setSize (int width, int height) { … };
+}
+
+public class Test {
+
+}

@@ -1,0 +1,21 @@
+
+public class Ouch {
+	static int ouch = 7 ;
+	
+	public static void main(String[] args) {
+		new Ouch().go(ouch);
+		System.out.println(ouch);
+		Ouch myOuch = new Ouch();
+		System.out.println(myOuch.ouch);
+		myOuch.go(myOuch.ouch);
+		System.out.println(myOuch.ouch);
+		System.out.println(ouch);
+	}
+	
+	void go(int ouch) {
+		System.out.println(this.ouch);
+		ouch++;
+		System.out.println(" "+ouch);
+	}
+
+}

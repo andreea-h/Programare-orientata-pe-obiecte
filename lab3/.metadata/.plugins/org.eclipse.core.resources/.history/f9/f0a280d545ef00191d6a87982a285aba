@@ -1,0 +1,33 @@
+
+class Train {
+	Route r;
+	Schedule s;
+	boolean local;
+	
+}
+
+class Schedule {
+	ClockTime departure;
+	ClockTime arrival;
+}
+
+class Route {
+	String origin;
+	String destination;
+	
+	public Route(String origin, String destination) {
+		this.origin = origin;
+		this.destination = destination;
+	}
+}
+
+class ClockTime {
+	int hour;
+	int minute;
+	
+	public ClockTime(int hour, int minute) {
+		this.hour = hour;
+		this.minute = minute;
+	}
+	
+}

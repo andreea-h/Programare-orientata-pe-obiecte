@@ -1,0 +1,32 @@
+import java.util.*;
+
+public class Problema3 {
+
+	static int eliminare(Vector vect, int x) {
+		int k=0;
+		int i;
+		for(i=0;i<vect.size();i++) {
+			if((int)vect.get(i)==x) {
+				k++;
+				vect.remove(i);
+			}
+		}
+		return k;
+			
+	}
+	
+	public static void main(String[] args) {
+		Vector vect = new Vector();
+		//generare vector
+		int i,nr;
+		for(i=1;i<=20;i++) {
+			Random generator = new Random();
+			nr = generator.nextInt(10);
+			vect.add(nr);
+		}
+		System.out.println("Vectorul generat random este " + vect);
+		Problema3 obiect = new Problema3();
+		System.out.println("Numarul de aparitii al lui" + 2 + " in vector este  " + obiect.eliminare(vect, 2));
+	}
+
+}

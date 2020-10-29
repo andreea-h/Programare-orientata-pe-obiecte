@@ -1,0 +1,23 @@
+
+abstract class Product {
+	float pret;
+	abstract float getPriceReduced();
+}
+
+class Book extends Product {
+	float getPriceReduced() {
+		return this.pret-this.pret*0.15;
+	}
+}
+
+class Food extends Product {
+	
+}
+
+class Beverage extends Product {
+	
+}
+
+class Computer extends Product {
+	
+}

@@ -1,0 +1,7 @@
+interface I1 {
+	int a=1;
+	void metoda();
+}
+public class C {
+
+}

@@ -1,0 +1,26 @@
+
+public class Complex {
+	
+	private double a,b;
+	
+	public Complex aduna(Complex comp) {
+		return new Complex(a+comp.a,b+comp.b);
+	}
+	
+	public boolean equals(Object obj) {
+		if(obj==null)
+			return false;
+		if(!(obj instanceof Complex))
+			return false;
+		Complex comp=(Complex)obj;
+		if(comp.a == a && comp.b == b)
+			return true;		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

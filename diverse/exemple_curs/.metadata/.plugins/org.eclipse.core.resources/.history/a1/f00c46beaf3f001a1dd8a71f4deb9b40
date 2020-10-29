@@ -1,0 +1,36 @@
+import java.util.*;
+public class Big {
+	void met(int x) {
+		
+	}
+}
+
+class Heavy extends Big {
+	//public void met(int x) {
+		
+	//}
+	
+	//protected void met(int x) { //suprasciere -> dynamic binding
+		
+	//}
+}
+
+
+class Weighty extends Heavy {
+/*	String met(int x) {  //compile time error, nu este suficient sa se schimbe tipul returnat
+		return "hi";
+	}*/
+	
+/*	public int met(int x) {
+		return 7;
+	}*/
+	
+	private int met(char c) throws Exception {
+		return 1;
+	}
+	
+	ArrayList<Integer> go() {
+		List<Integer> l = new ArrayLIst<Integer>();
+		return l;
+	}
+}

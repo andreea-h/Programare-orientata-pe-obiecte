@@ -1,0 +1,16 @@
+
+public class Big {
+	void met(int x) {
+		
+	}
+}
+
+class Heavy extends Big {
+	//public void met(int x) {
+		
+	//}
+	
+	protected void met(int x) {
+		
+	}
+}

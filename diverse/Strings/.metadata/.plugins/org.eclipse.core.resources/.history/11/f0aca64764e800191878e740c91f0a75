@@ -1,0 +1,14 @@
+import java.util.*;
+public class Problema6 {
+
+	public static void main(String[] args) {
+		Vector vect = new Vector();
+		vect.add(7.5);
+		vect.add("String");
+		vect.add(10);
+		vect.add(10.111);
+		vect.add(true);
+		vect.add('a');
+	}
+
+}

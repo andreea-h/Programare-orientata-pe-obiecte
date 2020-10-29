@@ -1,0 +1,25 @@
+import java.util.*;
+
+class SortedVector extends Vector{
+	Comparator myComp;
+	public SortedVector(Comparator myComp) {
+		this.myComp = myComp;
+	}
+	public boolean add(Object o) {
+		super.add(o);
+		Collections.sort(this, myComp);
+		return true;
+	}
+}
+
+class Pair {
+	Object obj1;
+	Object obj2;
+	public Pair(Object o1, Object o2) {
+		obj1 = o1;
+		obj2 = o2;
+	}
+	boolean equals(Pair b) {
+		return (b.obj1.equals(this.obj1) && b.obj2.equals(this.obj2));
+	}
+}

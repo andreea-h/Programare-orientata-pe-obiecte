@@ -1,0 +1,10 @@
+
+class Test {
+
+	public static void main(String[] args) {
+		Paralelogram p = new Paralelogram(10,20,30,150);
+		System.out.println(p.latura1+" "+p.latura2+" "+p.unghi1+" "+p.unghi2);
+
+	}
+
+}

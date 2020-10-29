@@ -1,0 +1,12 @@
+import java.util.*;
+
+class Product {
+	float pret;
+	String nume;
+}
+
+public class ShopSingleton {
+	String name;
+	ArrayList<Product> products;
+	
+}

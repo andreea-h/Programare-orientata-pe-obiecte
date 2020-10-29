@@ -1,0 +1,25 @@
+class Dacia {
+	{
+    private String model = "duster";
+	}
+    public Dacia() {
+        printModel();
+    }
+ 
+    void printModel() {
+        System.out.print(model);
+    }
+}
+ 
+class Ferrari extends Dacia {
+   private String series = "f40";
+ 
+    void printModel() {
+        System.out.print(series);
+    }
+ 
+    public static void main(String[] args) {
+        Ferrari myCar = new Ferrari();
+        
+    }
+}

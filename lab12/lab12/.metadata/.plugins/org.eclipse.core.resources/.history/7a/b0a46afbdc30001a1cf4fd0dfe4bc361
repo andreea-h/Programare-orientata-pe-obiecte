@@ -1,0 +1,11 @@
+
+public class Test {
+	
+	void addProduct(Product a) {
+		shop.products.add(a);
+	}
+
+	public static void main(String[] args) {
+		ShopSingleton shop = ShopSingleton.getInstance();
+	}
+}

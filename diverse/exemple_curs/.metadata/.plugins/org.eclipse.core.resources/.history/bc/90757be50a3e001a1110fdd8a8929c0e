@@ -1,0 +1,14 @@
+
+public class Animal {
+	
+	public String type = "mamifer";
+	public void show() {
+		System.out.println(“Animalul este un: " + type);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

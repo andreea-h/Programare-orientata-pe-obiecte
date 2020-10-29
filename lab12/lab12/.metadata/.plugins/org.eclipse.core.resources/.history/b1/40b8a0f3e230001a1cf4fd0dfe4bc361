@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class User implements Observer {
+	String name;
+	ArrayList<String> notifications = new ArrayList<String>()
+	
+	void update(Observable channel, String message) {
+		
+	}
+}

@@ -1,0 +1,30 @@
+
+abstract class Product {
+	float productPrice;
+	String productName;
+	abstract float getPriceReduced();
+}
+
+class Book extends Product {
+	float getPriceReduced() {
+		return (float)(this.pret-this.pret*0.15);
+	}
+}
+
+class Food extends Product {
+	float getPriceReduced() {
+		return (float)(this.pret-this.pret*0.2);
+	}
+}
+
+class Beverage extends Product {
+	float getPriceReduced() {
+		return (float)(this.pret-this.pret*0.05);
+	}
+}
+
+class Computer extends Product {
+	float getPriceReduced() {
+		return (float)(this.pret-this.pret*0.01);
+	}
+}

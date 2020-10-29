@@ -1,0 +1,14 @@
+import java.util.*;
+public class Test {
+
+	public static void main(String[] args) {
+		ArrayMap<Vector<Integer>, Vector<String>> dictionar = new ArrayMap<Vector<Integer>, Vector<String> >();
+		Vector key = new Vector();
+		key.add(1);
+		key.add(2);
+		Vector values = new Vector();
+		values.add("ana");
+		values.add("maria");
+			}
+
+}

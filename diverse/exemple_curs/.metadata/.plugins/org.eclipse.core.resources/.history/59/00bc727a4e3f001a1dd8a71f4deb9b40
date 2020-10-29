@@ -1,0 +1,9 @@
+
+abstract class C1 {
+	int x=2;
+	public final abstract String f();
+}
+
+class TestFinal {
+
+}

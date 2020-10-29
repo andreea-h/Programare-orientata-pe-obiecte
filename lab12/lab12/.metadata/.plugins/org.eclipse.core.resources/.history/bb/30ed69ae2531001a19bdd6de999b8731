@@ -1,0 +1,23 @@
+import java.util.*;
+
+interface Visitor {
+	void visit(Director f);
+	void visit(Fisier f);
+}
+
+abstract class Repository {
+	abstract public int accept();
+}
+
+class Fisier extends Repository {
+	
+}
+
+class Director extends Repository {
+	ArrayList<Repository> content = new ArrayList<Repository>();
+	
+	void addChild(Repository rep) {
+		content.add(rep);
+	}
+}
+

@@ -1,0 +1,52 @@
+import java.util.*;
+
+public class WarriorPack {
+    private Vector warriors ;
+
+    public WarriorPack () {
+        warriors = new Vector();
+    }
+
+    public void addWarrior(Warrior newWarrior) {
+        warriors.add(newWarrior);
+    }
+
+    public Vector getWarriors() {
+        return warriors ;
+    }
+
+    public String toString() {
+    	return warriors.toString();
+    }
+    
+    public int calculateDamage() {
+        int damage = 0;
+        for (int i = 0; i < warriors.size(); i++) {
+           /* if (warriors.get(i).type == Warrior.SNAKE_Warrior) {
+                //Snake does 10 damage
+                damage += 10;
+            } else if (warriors.get(i).type == Warrior.OGRE_Warrior) {
+                //Ogre does 6 damage
+                damage += 6;
+            } else if (warriors.get(i).type == Warrior.MARSHMALLOW_MAN_Warrior) {
+                //Marshmallow Man does 1 damage
+                damage += 1;
+            }*/
+        	Warrior v = (Warrior)warriors.get(i);
+        	Class clasa = v.getClass();
+        	System.out.println(clasa.getName());
+        //	damage += v.getDamage();
+        }
+        return damage;
+    }
+    
+    public static void main(String args[]){
+    
+    	WarriorPack echipa = new WarriorPack();
+    	echipa.addWarrior(new ORGE_Warrior(10,"Dragon"));
+    	echipa.addWarrior(new MARSHMALLOW_MAN_Warrior(2,"Gigel"));
+    	echipa.addWarrior(new SNAKE_Warrior(100,"DINOZAUR"));
+    	System.out.println(echipa.calculateDamage())
+    }
+}
+

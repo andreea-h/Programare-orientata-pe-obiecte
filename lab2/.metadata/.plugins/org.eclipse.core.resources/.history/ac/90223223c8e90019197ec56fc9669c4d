@@ -1,0 +1,13 @@
+import java.util.*;
+public class Problema6 {
+
+	public static void main(String[] args) {
+		Vector vect = new Vector();
+		Vector v = new Vector();
+		v.add(7.5);
+		v.add("String");
+		System.out.println(v.get(0).getClass());
+		System.out.println(v.get(1).getClass());
+	}
+
+}

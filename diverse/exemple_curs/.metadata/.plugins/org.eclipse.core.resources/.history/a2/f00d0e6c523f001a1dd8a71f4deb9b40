@@ -1,0 +1,12 @@
+
+class C1 {
+	int x=1;
+	C1(int x) {
+		this.x=x;
+	}
+}
+
+
+class C2 extends C1 {
+	
+}

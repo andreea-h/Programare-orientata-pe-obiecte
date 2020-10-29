@@ -1,0 +1,45 @@
+
+class Train {
+	Route r;
+	Schedule s;
+	boolean local;
+	
+	int bilet() {
+		int x;
+		if(local==true)
+			x=1;
+		else
+			x=2;
+	}
+	
+}
+
+class Schedule {
+	ClockTime departure;
+	ClockTime arrival;
+	
+	int durata() {
+		
+	}
+}
+
+class Route {
+	String origin;
+	String destination;
+	
+	public Route(String origin, String destination) {
+		this.origin = origin;
+		this.destination = destination;
+	}
+}
+
+class ClockTime {
+	int hour;
+	int minute;
+	
+	public ClockTime(int hour, int minute) {
+		this.hour = hour;
+		this.minute = minute;
+	}
+	
+}

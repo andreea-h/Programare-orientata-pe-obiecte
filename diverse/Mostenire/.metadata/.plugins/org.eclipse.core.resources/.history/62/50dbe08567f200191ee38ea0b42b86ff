@@ -1,0 +1,67 @@
+class Patrulater {
+    public int latura1, latura2, latura3, latura4;
+    public double unghi1, unghi2, unghi3, unghi4;
+ 
+    public Patrulater() {
+        this(0, 0, 0, 0);
+    }
+ 
+    public Patrulater(int latura1, int latura2, int latura3, int latura4) {
+        this.latura1 = latura1;
+        this.latura2 = latura2;
+        this.latura3 = latura3;
+        this.latura4 = latura4;
+    }
+ 
+    public Patrulater(double unghi1, double unghi2, double unghi3, double unghi4) {
+        this(0, 0, 0, 0, unghi1, unghi2, unghi3, unghi4);
+    }
+ 
+    public Patrulater(int latura1, int latura2, int latura3, int latura4,
+                      double unghi1, double unghi2, double unghi3, double unghi4) {
+        this(latura1, latura2, latura3, latura4);
+        this.unghi1 = unghi1;
+        this.unghi2 = unghi2;
+        this.unghi3 = unghi3;
+        this.unghi4 = unghi4;
+    }
+ 
+    public int perimetru() {
+        int result;
+        result = latura1 + latura2 + latura3 + latura4;
+        return result;
+    }
+}
+
+class Paralelogram extends Patrulater {
+	
+	public Paralelogram() {
+		this(0,0,0,0);
+	}
+	 public Paralelogram(int latura1, int latura2,int unghi1, int unghi2) {
+		 this.latura1 = latura1;
+		 this.latura2 = latura2;
+		 this.unghi1 = unghi1;
+		 this.unghi2 = unghi2;
+		 super.latura3 = latura1;
+		 super.latura4 = latura2;
+		 super.unghi3 = unghi1;
+		 super.unghi4 = unghi2;
+	 }
+}
+
+class Romb extends Patrulater {
+	public int diag1, diag2;
+	public Romb (int latura, int diag1, int diag2, int unghi1, int unghi) {
+		super(latura, latura, unghi1, unghi2);
+		
+	}
+}
+
+class Dreptunghi extends Paralelogram {
+	
+}
+
+class Patrat extends Dreptunghi {
+
+}

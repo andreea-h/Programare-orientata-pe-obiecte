@@ -1,0 +1,13 @@
+
+public class Problema2 {
+
+	int aparitii(String s1, String s2) {
+		String s3[] = s2.split(" ");
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+import java.util.*;
+public class Problema6 {
+
+	public static void main(String[] args) {
+		Vector vect = new Vector();
+		Vector v = new Vector();
+		v.add(7.5);
+		v.add(10);
+		v.add(12);
+		v.add("String");
+		v.add("Cuvinte");
+		v.add(-12);
+		v.add('e');
+	
+	}
+
+}

@@ -1,0 +1,19 @@
+
+public class Problema5 {
+	
+	int putere(int a, int b) {
+		if (b == 1) {
+			return a;
+		}
+		else
+			return a*putere(a, b-1);
+	}
+	
+	
+	public static void main(String[] args) {
+		Problema5 obiect = new Problema5();
+		
+
+	}
+
+}

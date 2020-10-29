@@ -1,0 +1,20 @@
+
+abstract class C1 {
+	private int x=2;
+	public abstract String f() ;
+}
+
+class C2 extends C1 {
+	int y=3;
+	public String f() {
+		return "x= "+x+",y="+y;
+	}
+
+}
+
+class TestFinal {
+	public static void main(String args[]) {
+		C2 object = new C2();
+		System.out.println(object.f());
+	}
+}

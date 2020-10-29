@@ -1,0 +1,13 @@
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		IntegerMatrix m = new IntegerMatrix();
+		m.add(2);
+		m.add(3);
+		m.add(4);
+		m.add(5);
+		System.out.println(m);
+	}
+
+}

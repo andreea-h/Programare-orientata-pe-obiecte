@@ -1,0 +1,10 @@
+import java.util.*;
+public class Test {
+
+	public static void main(String[] args) {
+		
+		ArrayMap<Vector<Integer>, Vector<String>> dictionar = new ArrayMap<Vector<Integer>, Vector<String> >();
+
+	}
+
+}

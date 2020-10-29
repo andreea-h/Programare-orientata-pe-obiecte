@@ -1,0 +1,49 @@
+import java.util.*;
+import java.util.Random;
+public class ArrayMap<K, V> extends AbstractMap<K, V> {
+	
+//	ArrayList dictionar; //colectia
+	
+	
+	class ArrayMapEntry<K,V> implements Map.Entry<K,V> {
+		K key;
+		V value;
+		public K getKey() {
+			return key;
+		}
+		public V getValue() {
+			return value;
+		}
+		
+		//returneaza vechea valoarea a lui 'value'
+		public V setValue(V value) {
+			V old = this.value;
+			this.value=(V)value;
+			return (V)old;
+		}
+		public String toString() {
+			String rez = ""+key+value;
+			return rez;
+		}
+		public boolean equals (Object o) {
+			return this.equals(o);
+		}
+		public int hashCode() {
+			return this.hashCode();
+		}
+	}
+	
+	
+	public Set entrySet() {
+		//Returns a Set view of the mappings contained in this map
+		return super.keySet();
+	/*	
+	}
+	public int size() {
+		
+		return super.size();
+	}
+	public V put(K key, V value) {
+		return super.put(key, value);
+	}*/
+}

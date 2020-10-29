@@ -1,0 +1,23 @@
+
+class C1 {
+	private int x=1;
+	void C1() {
+		System.out.println(x+" ");
+	}
+}
+
+class C2 extends C1 {
+	private int x=3;
+	void C2() {
+			super.C1() {
+			System.out.println(x+" ");
+		}
+	}
+}
+
+class Test {
+	public static void main(String args[]) {
+		C2 object = new C2(3);
+		System.out.println("y= "+object.y);
+	}
+}

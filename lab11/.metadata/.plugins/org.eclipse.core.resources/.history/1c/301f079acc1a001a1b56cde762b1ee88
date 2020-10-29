@@ -1,0 +1,21 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+
+class Fereastra extends JFrame {
+	public Fereastra(Vector<Book> carti) {
+		super("Carti");
+		this.setSize(400,400);
+		setLayout(new FlowLayout());
+
+	}
+	
+	public static void main(String args[]) {
+		Book b1=new Book("Cartea1","Autor1","");
+		Book b2=new Book("Cartea2","Autor2","");
+		Book b3=new Book("Cartea3","Autor3","");
+		Book b4=new Book("Cartea4","Autor4","");
+	}
+}
+

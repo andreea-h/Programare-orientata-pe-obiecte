@@ -1,0 +1,23 @@
+
+public class Big {
+	void met(int x) {
+		
+	}
+}
+
+class Heavy extends Big {
+	//public void met(int x) {
+		
+	//}
+	
+	//protected void met(int x) { //suprasciere -> dynamic binding
+		
+	//}
+}
+
+
+class Weighty extends Heavy {
+	String met(int x) {  //compile time error, nu este suficient sa se schmbe tipul returnat
+		return "hi";
+	}
+}

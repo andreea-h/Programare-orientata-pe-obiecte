@@ -1,0 +1,4 @@
+
+interface Strategy {
+	floar calcul(int aniVechime, float salariu);
+}

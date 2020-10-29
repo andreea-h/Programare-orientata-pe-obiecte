@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/andreea/eclipse-workspace/AWT/.metadata/.plugins/org.eclipse.jdt.core
+453203150.index
+531597613.index
+2353883367.index

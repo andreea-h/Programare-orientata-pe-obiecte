@@ -1,0 +1,16 @@
+package prb1;
+
+class Rectangle {
+	int x, y, width, height;
+
+	public Rectangle() {
+		
+	}
+	public Rectangle (int x, int y, int w, int h) {
+		
+	}
+	
+}
+public class Test {
+
+}

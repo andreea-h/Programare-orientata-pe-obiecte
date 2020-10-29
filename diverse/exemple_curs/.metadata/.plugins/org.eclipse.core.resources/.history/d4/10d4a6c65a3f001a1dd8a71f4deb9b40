@@ -1,0 +1,5 @@
+package pkgB;
+import pkgA.*; //import toate clasele din A
+public class Baz {
+
+}

@@ -1,0 +1,19 @@
+import java.util.*;
+	
+public class SetAsVector_M extends Vector{
+	
+	public boolean add(Object a) {
+		if(this.contains(a)) {
+			return false;
+		}
+		return super.add(a);
+	}
+	public static void main(String[] args) {
+		SetAsVector_M st1 = new SetAsVector_M();
+		st1.insertElementAt("abc", 0);
+		st1.insertElementAt("ccc", 0);
+		System.out.println(st1);
+		
+	}
+
+}

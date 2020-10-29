@@ -1,0 +1,11 @@
+import java.util.*;
+public class Problema5 {
+	HashMap<String, Integer> a1;
+	TreeMap<String, Integer> a2;
+	
+	public Problema5() {
+		a1=new HashMap();
+		a2=new TreeMap();
+	}
+
+}

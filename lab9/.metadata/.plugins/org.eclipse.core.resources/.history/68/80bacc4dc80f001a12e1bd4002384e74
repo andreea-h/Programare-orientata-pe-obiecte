@@ -1,0 +1,44 @@
+import java.util.*;
+
+public abstract class AMatrix<T extends Number> extends ArrayList<ArrayList<T>> {
+	public abstract AMatrix<T> addition(AMatrix<T> m1);
+	//Aduna doua elemente de tip T si intoarce rezultatul
+	public abstract T sum(T obj1, T obj2);
+}
+
+class IntegerMatrix extends AMatrix{
+	public String toString() {
+		return super.toString();
+	}
+	
+	public Integer sum(Number obj1, Number obj2) {
+		return (Integer)obj1+(Integer)obj2;
+	}
+	
+	public AMatrix addition(AMatrix m) {
+		Iterator  k1 = this.iterator();
+		Iterator  k2 = m.iterator();
+		
+	
+	    while(k1.hasNext() && k2.hasNext()) {
+	    	ArrayList<Integer> line1 = new ArrayList<Integer>();
+	    	line1=(ArrayList<Integer>)k1.next();
+	    	//System.out.println(line1);
+	    	ArrayList<Integer> line2 = new ArrayList<Integer>();
+	    	line2=(ArrayList<Integer>)k2.next();
+	    	//System.out.println(line2);
+	    	Iterator <Integer> i = line1.iterator();
+	    	Iterator <Integer> j = line2.iterator();
+	    	while (i.hasNext()&&j.hasNext()) {
+	    		//System.out.println(i.next());
+	    		//System.out.println(j.next());
+	    		Integer x=i.next();
+	    		Integer y=j.next();
+	    		i.set(2);
+	    
+	    	}
+	    }
+	    	
+	    return this;
+	}
+}

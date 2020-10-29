@@ -1,0 +1,31 @@
+
+
+class Complex {
+	
+}
+public class Money {
+	private String country, name;
+	public String getCountry() {
+		return country;
+	}
+	
+	protected Complex adunare(Complex c) {
+		Complex a = new Complex();
+		return a;
+	}
+}
+
+class Yen extends Money {
+	//supradefinire
+	public String getCountry() {
+	//	return super.country; //err
+		return "ceva";
+	}
+	
+	//supradefinire
+	public Complex adunare(Complex c) {
+		return new Complex();
+	}
+}
+
+

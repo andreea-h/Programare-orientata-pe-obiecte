@@ -1,0 +1,13 @@
+
+abstract class Repository {
+	abstract public int accept();
+}
+
+class Fisier extends Repository {
+	
+}
+
+class Director extends Repository {
+	ArrayList<Repository> content;
+}
+

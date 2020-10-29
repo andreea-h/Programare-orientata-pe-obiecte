@@ -1,0 +1,11 @@
+
+class TestArray {
+	public static void main(String args[]) {
+		SortedArray el = new SortedArray();
+		el.addElement(10);
+		el.addElement(20);
+		el.addElement(13);
+		el.addElement(10, 2);
+	}
+
+}

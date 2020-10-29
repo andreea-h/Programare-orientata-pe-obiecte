@@ -1,0 +1,10 @@
+
+public class Pensionar {
+	int aniVechime;
+	float salariu;
+	Strategy strategy;
+	
+	float getPensie() {
+		return strtegy.calcul(aniVechime, salariu);
+	}
+}

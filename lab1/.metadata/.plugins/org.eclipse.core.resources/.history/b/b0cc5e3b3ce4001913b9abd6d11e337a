@@ -1,0 +1,12 @@
+
+public class Problema2 {
+
+	void print(String[] s) {
+		System.out.println(s);
+	}
+	public static void main(String[] args) {
+		Problema2 object = new Problema2();
+		object.print("Test");
+	}
+
+}

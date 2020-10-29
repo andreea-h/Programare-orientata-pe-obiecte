@@ -1,0 +1,36 @@
+
+abstract class Hero extends BadLuck {
+	
+}
+
+class Warrior extends Hero { 
+	void execute(Hero h) {
+		System.out.println("in Warrior class");
+	}
+	void execute(Warrior w) {
+		System.out.println("in Warrior class");
+	}
+	void execute(Ninja n) {
+		System.out.println("in Warrior class");
+	}
+	void execute(Rogue r) {
+		System.out.println("in Warrior class");
+	}
+}
+
+abstract class Ninja extends Warrior {
+  
+}
+
+abstract class Rogue extends Ninja {
+	
+}
+
+abstract class StormFire extends Rogue {
+	/*void execute(StormFire r) {
+	}*/
+	abstract void execute(Hero h);
+    abstract void execute(Warrior w);
+    abstract void execute(Ninja n);
+    abstract void execute(Rogue r);
+}

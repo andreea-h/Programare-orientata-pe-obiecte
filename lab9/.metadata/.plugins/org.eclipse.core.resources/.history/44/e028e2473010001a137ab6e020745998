@@ -1,0 +1,55 @@
+
+abstract class Hero extends BadLuck {
+	
+}
+
+class Warrior extends Hero { 
+	void execute(Hero h) {
+		System.out.println("in Warrior class");
+	}
+	void execute(Warrior w) {
+		System.out.println("in Warrior class");
+	}
+	void execute(Ninja n) {
+		System.out.println("in Warrior class");
+	}
+	void execute(Rogue r) {
+		System.out.println("in Warrior class");
+	}
+}
+
+ class Ninja extends Warrior {
+  
+}
+
+class Rogue extends Ninja {
+	void execute(Hero h) {
+		System.out.println("in Rogue class");
+	}
+	 void execute(Warrior w) {
+    	 System.out.println("in Rogue class");
+    }
+    void execute(Ninja n) {
+    	 System.out.println("in Rogue class");
+    }
+    void execute(Rogue r) {
+    	 System.out.println("in Rogue class");
+    }
+	
+	 
+}
+
+class StormFire extends BadLuck {
+	 void execute(Hero h) {
+		 System.out.println("in StormFire class");
+	 }
+    void execute(Warrior w) {
+    	 System.out.println("in StormFire class");
+    }
+    void execute(Ninja n) {
+    	 System.out.println("in StormFire class");
+    }
+    void execute(Rogue r) {
+    	 System.out.println("in StormFire class");
+    }
+}

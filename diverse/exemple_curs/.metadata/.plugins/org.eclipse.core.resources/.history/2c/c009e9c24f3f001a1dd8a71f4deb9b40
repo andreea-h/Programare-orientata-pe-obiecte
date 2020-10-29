@@ -1,0 +1,10 @@
+
+abstract class C1 {
+	int x=2;
+	public abstract void f() ;
+}
+
+class C2 extends C1 {
+	
+
+}

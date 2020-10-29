@@ -1,0 +1,13 @@
+interface I1 {
+	int a=1;
+	void metoda();
+}
+
+interface I2 {
+	int a=1;
+	void metoda();
+}
+
+public class C implements I1, I2{
+
+}

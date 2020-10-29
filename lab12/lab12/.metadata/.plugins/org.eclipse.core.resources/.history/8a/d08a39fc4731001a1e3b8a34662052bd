@@ -1,0 +1,10 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		ProductFactory pr = new ProductFactory();
+		Produs p1 = pr.factory("Book", "Book1", 10);
+
+	}
+
+}

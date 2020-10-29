@@ -1,0 +1,22 @@
+
+import java.util.*;
+
+public class Tren implements Comparable {
+	
+}
+
+class CalatoriA extends Vagon {
+	
+}
+
+class CalatoriB extends Vagon {
+	
+}
+
+class CalatoriC extends Vagon {
+	
+}
+
+abstract class Vagon {
+	
+}

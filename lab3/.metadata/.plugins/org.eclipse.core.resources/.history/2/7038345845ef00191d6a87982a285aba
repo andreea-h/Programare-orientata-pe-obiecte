@@ -1,0 +1,20 @@
+
+class Train {
+	Route r;
+	Schedule s;
+	boolean local;
+	
+}
+
+class Schedule {
+
+}
+
+class Route {
+	String origin;
+	String destination;
+}
+
+class ClockTime {
+	
+}

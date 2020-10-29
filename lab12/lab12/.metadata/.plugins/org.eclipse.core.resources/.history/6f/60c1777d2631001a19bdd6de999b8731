@@ -1,0 +1,55 @@
+import java.io.IOException;
+import java.util.*;
+
+interface Visitor {
+	void visit(Director f);
+	void visit(Fisier f);
+}
+
+class Ls implements Visitor {
+	public void visit(Director f) {
+		 System.out.println(f.getName());
+         for (Repository repo: f.content) {
+             System.out.println(repo.getName()); 
+         }
+	}
+	
+	public void visit(Fisier f) {
+		System.out.println("Not a folder");
+	}
+}
+
+class Cat implements Visitor {
+	 public void visit(Director f) {
+		 System.out.println("Not a file");
+     }
+     public void visit(Fisier f) {
+        try {
+        	
+        }
+        catch(IOException e) {
+        	e.printStackTrace();
+        }
+     }
+}
+
+abstract class Repository {
+	private String name;
+	public String getName() {
+		return name;
+	}
+	abstract public void accept(Visitor f);
+}
+
+class Fisier extends Repository {
+	
+}
+
+class Director extends Repository {
+	ArrayList<Repository> content = new ArrayList<Repository>();
+	
+	void addChild(Repository rep) {
+		content.add(rep);
+	}
+}
+

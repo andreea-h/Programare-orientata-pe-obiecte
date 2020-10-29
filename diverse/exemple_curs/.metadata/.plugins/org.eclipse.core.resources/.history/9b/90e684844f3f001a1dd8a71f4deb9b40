@@ -1,0 +1,11 @@
+
+class C1 {
+	int x=2;
+	public final String f() {
+		
+	}
+}
+
+class TestFinal {
+
+}

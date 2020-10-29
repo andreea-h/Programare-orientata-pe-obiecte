@@ -1,0 +1,37 @@
+import java.util.*;
+public class Problema6 {
+
+	public static void main(String[] args) {
+		Vector v = new Vector();
+		v.add(7.5);
+		v.add(10);
+		v.add(12);
+		v.add("String");
+		v.add("Cuvinte");
+		v.add(-12);
+		v.add('e');
+		v.add(true);
+		v.add(false);
+		System.out.println("Vectorul este: " + v);
+		int i;
+		Vector contor = new Vector(); //vector pentru contorizare aparitii
+		String s1 = new String("java.lang.Integer");
+		String s2 = new String("java.lang.Double");
+		String s3 = new String("java.lang.Float");
+		String s4 = new String("java.lang.String");
+		String s5 = new String("java.lang.Character");
+		String s6 = new String("java.lang.Boolean");
+		for(i=0;i<v.size();i++) {
+			Class a = v.get(i).getClass();
+		//	System.out.println(a.getName());
+			String s = new String(a.getName());
+			if(s.equals(s1))) {
+				
+			}
+
+
+		}
+	
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class Pensionar {
+	int aniVechime;
+	float salariu;
+	Strategy strategy;
+	
+	float getPensie() {
+		if(strategy.getClass().getName().equals("TwentryStrategy")) {
+			
+		}
+	}
+}

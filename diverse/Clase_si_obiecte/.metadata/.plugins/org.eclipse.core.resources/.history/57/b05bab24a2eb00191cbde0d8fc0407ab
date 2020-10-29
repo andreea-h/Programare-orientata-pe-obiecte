@@ -1,0 +1,14 @@
+
+public class Complex {
+	
+	private double a,b;
+	public Complex aduna(Complex comp) {
+		return new Complex(a+comp.a,b+comp.b);
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

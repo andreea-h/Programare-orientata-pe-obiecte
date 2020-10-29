@@ -1,0 +1,9 @@
+
+public class Money {
+	private String country, name;
+	public getCountry() {
+		return country;
+	}
+}
+
+

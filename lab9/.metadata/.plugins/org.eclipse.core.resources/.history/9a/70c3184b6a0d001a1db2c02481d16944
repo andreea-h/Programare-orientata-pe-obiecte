@@ -1,0 +1,17 @@
+import java.util.*;
+class ArrayMap<K,V> extends AbstractMap<K,V> {
+	K key;
+	V value;
+	class Entry implements Map.Entry {
+		K key;
+		V value;
+		
+		public V getValue(K key) {
+			
+		}
+		
+	}
+	public Set<Map.Entry<K, V>> entrySet() {
+		
+	}
+}

@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Problema5 {
+	
+	String cenzurare(String text, String cuvinte[]) {
+		int i,j;
+		int ok=0;
+		int k=0; //aparitii ale cuvintelor in text
+		for(i=0;i<cuvinte.length;i++) {
+			if(text.indexOf(cuvinte[i],i)!=-1) {
+				ok=1;
+			}
+			
+		}
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

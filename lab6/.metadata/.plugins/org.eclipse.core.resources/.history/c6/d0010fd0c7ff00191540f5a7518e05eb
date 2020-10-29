@@ -1,0 +1,12 @@
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		Vector studenti = new Vector;
+		Student s1 = new Student("Georgescu",2);
+		s1.addMedie(9.2);
+		s1.addMedie(7.8);
+
+	}
+
+}

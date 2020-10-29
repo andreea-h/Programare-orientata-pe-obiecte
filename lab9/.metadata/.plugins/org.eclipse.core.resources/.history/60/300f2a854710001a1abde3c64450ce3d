@@ -1,0 +1,24 @@
+import java.util.*;
+public class Test02 {
+
+	public static void main(String[] args) {
+		ArrayMap<Vector, Vector> map = new ArrayMap<>();
+        Vector key = new Vector();
+        Vector values = new Vector();
+        key.add(5);
+        key.add(6);
+        key.add(7);
+        values.add("ana");
+        values.add("are");
+        values.add("mere");
+        System.out.println("Populam colectia...");
+        map.put(key, values);
+
+        System.out.println("Verificam...");
+        System.out.println("Continutul colectiei: " + map);
+
+
+
+	}
+
+}

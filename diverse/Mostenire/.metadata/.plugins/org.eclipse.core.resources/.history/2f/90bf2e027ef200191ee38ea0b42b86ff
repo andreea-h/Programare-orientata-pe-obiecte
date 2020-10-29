@@ -1,0 +1,22 @@
+import java.util.*;
+
+class HSet extends Hashtable {
+	//Adauga un element in multime, daca nu exista deja
+	public boolean add(Object value) {
+		if(this.containsValue(value))
+			return false;
+		else {
+			this.put(value, value);
+			return true;
+		}
+	}
+	//returneaza un String cu elementele multimii (doar cheile, nu perechi)
+	public String toString() {
+		return this.keys();
+	}
+	//Sterge perechea corespunzatoare cheii, intorcand valoarea
+	public Object remove(Object key) {
+		return this.remove(key);
+	}
+
+}

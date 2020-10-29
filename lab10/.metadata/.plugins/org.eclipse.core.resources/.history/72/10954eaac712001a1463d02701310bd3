@@ -1,0 +1,44 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+class Problema1 extends JFrame implements ActionListener  {
+	private JTextField tf1, tf2, tf3,tf4; 
+	private Button bt;
+	public Problema1(String titlu) {
+		super(titlu);
+		this.setSize(400,400);
+		getContentPane().setLayout(new FlowLayout());
+		
+		JTextField tf1 = new JTextField("Introdu numele discului",15);
+		add(tf1);
+		JTextField tf2 = new JTextField("Introdu calea",15);
+		add(tf2);
+		JTextField tf3 = new JTextField("Introdu numele fisierelui", 15);
+		add(tf3);
+		final JTextField tf4 = new JTextField("            ",15);
+		add(tf4);
+		tf4.setText("Ana are mere");
+		Button bt = new Button("ok");
+		add(bt);
+		bt.addActionListener(this);
+		setVisible(true);
+		show();
+	}
+	private int numClicks=0;
+	
+	public void setAction() {
+	//	tf1.addActionListener(this);
+	//	tf2.addActionListener(this);
+	//	tf3.addActionListener(this);
+	//	tf4.addActionListener(this);
+	}
+	
+	public void actionPerformed(ActionEvent e) {
+		numClicks++;
+	    String text = tf1.getText();
+	    System.out.println(text);
+	//    tf4.setText("Button Clicked" +numClicks+" times");
+	//	System.out.println("Text1="+tf1.getText());
+	}
+}

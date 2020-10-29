@@ -1,0 +1,42 @@
+import java.util.*;
+import java.awt.Graphics;
+import java.awt.print.*;
+
+public class Table{
+	Vector<Vector> obj;
+	
+	class AsciiPrinter { //afisarea in format ascii
+		int size[]; //vect de dimensiuni
+		public AsciiPrinter(int []vect) {
+			size = vect;
+		}
+		public void print() {
+			int i;
+			
+			
+		}
+	}
+	
+	class CsvPrinter { //afisarea in format csv
+		
+		
+		public CsvPrinter() {
+			
+		}
+	}
+	
+	public Table(Object [][] obj) {
+		
+	}
+	
+	
+
+	public void print(Object [][] obj) {
+		int i;
+		
+		
+	}
+	
+
+	
+}

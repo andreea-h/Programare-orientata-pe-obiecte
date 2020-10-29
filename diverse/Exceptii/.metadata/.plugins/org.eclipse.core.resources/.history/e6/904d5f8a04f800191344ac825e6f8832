@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class Problema3 {
+	Vector pozitive;
+	public Problema3() {
+		pozitive = new Vector();
+	}
+	//citire si adaugare in vector
+	public void myRead() throws Exception {
+		
+	}
+	
+	public static void main(String args[]) {
+		Problema3 o = new Problema3();
+		
+		try {
+			o.myRead();
+		}
+		catch(Exception NumarNegativ) {
+			System.out.println("Numarul introdus este negativ!");
+		}
+	}
+}

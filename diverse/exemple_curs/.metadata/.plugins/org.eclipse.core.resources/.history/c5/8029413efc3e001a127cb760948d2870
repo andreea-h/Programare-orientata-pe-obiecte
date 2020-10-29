@@ -1,0 +1,13 @@
+
+public class Hobbit {
+	static int count(int x, int y) {
+		return x*y;
+	}
+}
+
+class Frodo extends Hobbit {
+	public static void main(String args[]) {
+		Short a = 7;
+		System.out.println(count(a, 6));
+	}
+}

@@ -1,0 +1,21 @@
+import java.util.*;
+public class Test03 {
+
+	public static void main(String[] args) {
+		IntegerMatrix m = new IntegerMatrix();
+		ArrayList linia1=new ArrayList();
+		linia1.add(5);
+		linia1.add(3);
+		linia1.add(4);
+		linia1.add(5);
+		m.add(linia1);
+		ArrayList linia2=new ArrayList();
+		linia2.add(5);
+		linia2.add(3);
+		linia2.add(4);
+		linia2.add(5);
+		m.add(linia2);
+		System.out.println(m);
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class Money {
+	private String country, name;
+	public String getCountry() {
+		return country;
+	}
+}
+
+class Yen extends Money {
+	//supradefinire
+	public String getCountry() {
+		
+	}
+}
+

@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Table {
+	Vector [][] vect;
+	
+	class AsciiPrinter { //afisarea in fomrat ascii
+		
+	}
+	
+	class CsvPrinter { //afisarea in fomrat csv
+		
+	}
+	
+	public Table(Object [][] obj) {
+		
+	}
+}

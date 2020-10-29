@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class Problema5 {
+	
+	String cenzurare(String text, String cuvinte[]) {
+		int i,j;
+		int k=0; //aparitii ale cuvintelor in text
+		for(i=0;i<cuvinte.length;i++) {
+			
+			
+		}
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

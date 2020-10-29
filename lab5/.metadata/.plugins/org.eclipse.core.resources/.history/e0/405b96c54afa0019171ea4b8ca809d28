@@ -1,0 +1,9 @@
+import java.util.*;
+public class Problema3 {
+	Vector pozitivi;
+	
+	public void myRead() {
+		Scanner s = new 
+	}
+	
+}

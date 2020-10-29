@@ -1,0 +1,17 @@
+import java.util.*;
+class HSet extends Hashtable {
+	//Adauga un element in multime, daca nu exista deja
+	public boolean add(Object value) {
+		if(this.containsValue(value))
+			return false;
+	}
+	//returneaza un String cu elementele multimii (doar cheile, nu perechi)
+	public String toString() {
+	
+	}
+	//Sterge perechea corespunzatoare cheii, intorcand valoarea
+	public Object remove(Object key) {
+		
+	}
+
+}

@@ -1,0 +1,58 @@
+import java.util.*;
+
+class Student {
+	String name;
+	
+	public Student(String a) {
+		name=a;
+	}
+	public void getInfo1() {
+		return;
+	}
+	public String getInfo2() {
+		return name;
+	}
+}
+
+class Test {
+	public static void main(String []args) {
+		Student s = new Student("fvni");
+		System.out.println(s.getInfo2());
+		s=null;
+	//	s.getInfo1();
+		
+		Object []list = {new Integer(12),new String("foo"), new Boolean(true)};
+	//	Arrays.sort(list);
+		
+		Set set = new HashSet();
+		set.add("1");
+		set.add(1);
+		set.add(null);
+		set.add("null");
+		System.out.println(set);
+		
+		List<? extends Number> list1 = null;
+		List<Integer> list2 = null;
+		list1 = list2; //orice Integer este un subtip al lui number
+		
+		Collection <? super Integer> coll = new Collection<Integer>();
+	
+		List<Number> list11 = null;
+		List<? super Integer> list22 = null;
+		//list11 = list22; //nu orice supertip al lui Integer este Number
+		list11.add(10);
+		Double d = new Double(10);
+		System.out.println(d);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+}

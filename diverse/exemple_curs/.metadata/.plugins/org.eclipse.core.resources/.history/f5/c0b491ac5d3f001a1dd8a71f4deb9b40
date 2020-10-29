@@ -1,0 +1,11 @@
+
+class MyException extends Exception {
+	
+}
+
+public class Houdini {
+	public static void main(String args[]) throws Exception {
+		throw MyException();
+		
+	}
+}

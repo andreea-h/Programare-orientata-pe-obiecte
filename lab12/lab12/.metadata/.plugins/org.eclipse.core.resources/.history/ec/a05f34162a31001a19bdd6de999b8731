@@ -1,0 +1,18 @@
+
+public class TestVar {
+	
+	static int var = 7;
+	
+	void go(int var) {
+		var++;
+		for(var=3; var<6;var++) {
+			System.out.println("*"+var);
+		}
+	}
+	public static void main(String[] args) {
+		new TestVar().go(var);
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+
+class C1 {
+	int x=1;
+	C1(int x) {
+		this.x=x;
+	}
+}
+
+
+class C2 extends C1 {
+	int y=3;
+	C2(int x) {
+		this(x,y);
+	}
+	
+	C2(int x, int y) {
+		super(x);
+		this.y=y;
+	}
+	
+	public String toString() {
+		return "x=" +x+",y="+y;
+	}
+}

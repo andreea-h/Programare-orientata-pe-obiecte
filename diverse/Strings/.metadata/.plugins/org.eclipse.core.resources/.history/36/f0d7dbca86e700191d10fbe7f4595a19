@@ -1,0 +1,10 @@
+
+public class Class1 {
+
+	public static void main(String[] args) {
+		String s1 = "si";
+		String s = "sir1 si cu sir2 fac un sir3";
+
+	}
+
+}

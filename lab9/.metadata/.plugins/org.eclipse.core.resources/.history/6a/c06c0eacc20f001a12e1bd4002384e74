@@ -1,0 +1,14 @@
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		IntegerMatrix m = new IntegerMatrix();
+		ArrayList linia1=new ArrayList();
+		m.add(5);
+		m.add(3);
+		m.add(4);
+		m.add(5);
+		System.out.println(m);
+	}
+
+}

@@ -1,0 +1,22 @@
+
+abstract class Product {
+	abstract float getPriceReduced();
+}
+
+class Book extends Product {
+	float getPriceReduced() {
+		
+	}
+}
+
+class Food extends Product {
+	
+}
+
+class Beverage extends Product {
+	
+}
+
+class Computer extends Product {
+	
+}

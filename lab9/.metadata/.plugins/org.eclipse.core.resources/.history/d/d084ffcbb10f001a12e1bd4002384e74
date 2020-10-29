@@ -1,0 +1,25 @@
+
+abstract class Hero extends BadLuck {
+	
+}
+
+abstract class Warrior extends BadLuck { 
+	
+}
+
+abstract class Ninja extends BadLuck {
+  
+}
+
+abstract class Rogue extends BadLuck {
+	
+}
+
+abstract class StormFire {
+	/*void execute(StormFire r) {
+	}*/
+	abstract void execute(Hero h);
+    abstract void execute(Warrior w);
+    abstract void execute(Ninja n);
+    abstract void execute(Rogue r);
+}

@@ -1,0 +1,27 @@
+
+interface Strategy {
+	float calcul(int aniVechime, float salariu);
+	String getStrategyName();
+}
+
+class TwentyStrategy implements Strategy {
+	public float calcul(int aniVechime, float salariu) {
+		return aniVechime/20*salariu;
+	}
+	
+	public String getStrategyName() {
+		return TwentyStrategy;
+	}
+}
+
+class ThirtyStrategy implements Strategy {
+	public float calcul(int aniVechime, float salariu) {
+		return aniVechime/30*salariu;
+	}
+}
+
+class FortyStrategy implements Strategy {
+	public float calcul(int aniVechime, float salariu) {
+		return aniVechime/40*salariu;
+	}
+}

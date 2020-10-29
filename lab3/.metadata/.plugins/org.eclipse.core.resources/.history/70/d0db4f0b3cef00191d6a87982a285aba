@@ -1,0 +1,35 @@
+
+class Fractie {
+	
+	double numarator;
+	double numitor;
+	
+	public Fractie(double numarator, double numitor) {
+		this.numarator=numarator;
+		this.numitor=numitor;
+	}
+	
+	double suma(Fractie f) {
+		return (this.numitor*f.numarator+this.numarator*f.numitor)/(this.numitor*f.numarator);	
+	}
+	
+	public String toString() {
+		return numarator+"/"+numitor;
+	}
+	
+	boolean equals(Object obj) {
+		if(obj == null)
+			return false;
+		if(!(obj instanceof Fractie)) 
+			return false;
+		Fractie f=(Fractie) obj;
+		return(this.numarator * f.numitor == this.numitor *f.numarator);
+	}
+
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Scanner {
+	Vector pozitive;
+	public Scanner() {
+		pozitive = new Vector();
+	}
+	//citire si adaugare in vector
+	public void myRead() throws NumarNegativ {
+		
+	}
+}

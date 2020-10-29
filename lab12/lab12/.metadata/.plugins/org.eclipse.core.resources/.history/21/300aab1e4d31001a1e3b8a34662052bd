@@ -1,0 +1,9 @@
+import java.util.*;
+import java.io.*;
+
+public class Test {
+	Cat obj = new Cat();
+	File file = new File("/home/andreea/Downloads/PROIECT");
+	File[] files = file.listFiles();
+	Fisier fisier = new Fisier(files.get(0));
+}

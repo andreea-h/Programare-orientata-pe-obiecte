@@ -1,0 +1,14 @@
+import java.util.*;
+public class Problema3 {
+
+	public static void main(String[] args) {
+		Vector vect = new Vector();
+		//generare vector
+		Random generator = new Random();
+		int i;
+		for(i=1;i<=0;i++)
+			
+
+	}
+
+}
