@@ -1,0 +1,29 @@
+
+abstract class Hero {
+	 void execute(Hero h){};
+}
+
+class Warrior extends Hero { 
+	
+}
+
+class Ninja extends Warrior {
+   void execute(Ninja n) {
+	   
+   }
+}
+
+class Rogue extends Ninja {
+	void execute(Rogue r) {
+		
+	}
+}
+
+class StormFire extends BadLuck {
+	void execute(StormFire r) {
+	}
+	abstract void execute(Hero h);
+    abstract void execute(Warrior w);
+    abstract void execute(Ninja n);
+    abstract void execute(Rogue r);
+}

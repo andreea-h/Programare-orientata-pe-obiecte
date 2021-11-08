@@ -1,0 +1,13 @@
+class Student {
+	String name;
+	
+	public Student(String a) {
+		name=a;
+	}
+	public void getInfo1() {
+		return;
+	}
+	public String getInfo2() {
+		return nume;
+	}
+}

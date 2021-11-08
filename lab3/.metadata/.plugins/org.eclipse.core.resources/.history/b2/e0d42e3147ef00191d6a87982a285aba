@@ -1,0 +1,62 @@
+
+class Train {
+	Route r;
+	Schedule s;
+	boolean local;
+	
+	int bilet() {
+		int x;
+		if(local==true)
+			x=1;
+		else
+			x=2;
+		return x*s.durata();
+	}
+	
+}
+
+class Schedule {
+	ClockTime departure;
+	ClockTime arrival;
+	
+	int durata() {
+		if(arrival.hour != departure.hour)
+			return (arrival.hour-departure.hour)*60+(arrival.minute+arrival.minute);
+		return arrival.minute-arrival.minute;
+	}
+}
+
+class Route {
+	String origin;
+	String destination;
+	
+	public Route(String origin, String destination) {
+		this.origin = origin;
+		this.destination = destination;
+	}
+	
+	boolean verifica(Route r) {
+		if(origin.equals(r.destination) && destination.equals(r.origin))
+			return true;
+		return false;
+	}
+}
+
+class ClockTime {
+	int hour;
+	int minute;
+	
+	public ClockTime(int hour, int minute) {
+		this.hour = hour;
+		this.minute = minute;
+	}
+	
+	int compara(ClockTime c) {
+		if((c.hour > hour) || (c.hour==hour && c.minute>minute))
+			return 2;
+		if(c.hour < hour )
+			return 1;
+		
+	}
+	
+}

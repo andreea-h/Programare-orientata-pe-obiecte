@@ -1,0 +1,11 @@
+import java.util.*;
+public class StaticBinding {
+
+	public static void main(String[] args) {
+		StaticBinding test = new StaticBinding();
+		Collection c = new HashSet();
+		test.sort(c);
+
+	}
+
+}

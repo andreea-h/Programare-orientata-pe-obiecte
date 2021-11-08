@@ -1,0 +1,5 @@
+import java.util.*;
+public class Problema3 {
+	Vector pozitivi;
+	
+}

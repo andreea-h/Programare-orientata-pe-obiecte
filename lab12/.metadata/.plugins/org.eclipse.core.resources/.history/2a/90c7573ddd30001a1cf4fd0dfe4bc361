@@ -1,0 +1,13 @@
+
+public class Test {
+	ShopSingleton shop = ShopSingleton.getInstance();
+	void addProduct(Product a) {
+		if(!shop.products.contains(a))
+			shop.products.add(a);
+	}
+	
+
+	public static void main(String[] args) {
+		
+	}
+}

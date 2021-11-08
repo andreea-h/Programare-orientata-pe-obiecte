@@ -1,0 +1,16 @@
+import java.util.*;
+	
+public class SetAsVector_M extends Vector{
+	
+	public boolean add(Object a) {
+		if(this.contains(a)) {
+			return false;
+		}
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

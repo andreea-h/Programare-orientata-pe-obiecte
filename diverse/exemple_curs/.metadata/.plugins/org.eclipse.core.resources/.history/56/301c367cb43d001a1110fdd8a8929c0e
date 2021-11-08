@@ -1,0 +1,20 @@
+package prb1;
+
+class Rectangle {
+	int x, y, width, height;
+
+	public Rectangle() {
+		
+	}
+	public Rectangle (int x, int y, int w, int h) {
+		this.x = x;
+		this.y = y;
+		this.z = z;
+		width = w;
+		height = h;
+	}
+	
+}
+public class Test {
+
+}

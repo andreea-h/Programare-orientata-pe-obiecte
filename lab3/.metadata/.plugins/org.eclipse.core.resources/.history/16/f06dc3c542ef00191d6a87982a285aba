@@ -1,0 +1,14 @@
+
+class Numar {
+	int intreg;
+	
+	//returneaza suma dintre nr (membrul clasei) si a
+	public int suma(int a);
+	//returneaza suma dintre nr, a si b
+	public int suma(int a, int b);
+	//returneaza suma dintre nr, a, b si c
+	public int suma(int a, int b, int c);
+	//returneaza suma dintre nr, a, b, c si d
+	public int suma(int a, int b, int c, int d);
+
+}

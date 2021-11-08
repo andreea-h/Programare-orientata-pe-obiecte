@@ -1,0 +1,4 @@
+
+abstract class Repository {
+	public int accept();
+}

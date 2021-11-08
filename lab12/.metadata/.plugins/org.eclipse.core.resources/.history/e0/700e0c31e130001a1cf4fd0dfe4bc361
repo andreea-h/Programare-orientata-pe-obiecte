@@ -1,0 +1,8 @@
+
+public class ProductFactory {
+	Product factory(String type, String nameProduct, float productPrice) {
+		if(type.equals("Book")) {
+			return new Book(nameProduct, productPrice);
+		}
+	}
+}

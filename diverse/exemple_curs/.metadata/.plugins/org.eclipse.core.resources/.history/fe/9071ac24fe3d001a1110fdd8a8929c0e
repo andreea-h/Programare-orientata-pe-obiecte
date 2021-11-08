@@ -1,0 +1,11 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		SortedVector v1 = new SortedVector(new MyComp1());
+		SortedVector v2 = new SortedVector(new MyComp2());
+		v1.add(new Pair("X",1));
+		v1.add(new Pair("a",2));
+	}
+
+}

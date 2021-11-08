@@ -1,0 +1,6 @@
+
+public class ProductFactory {
+	Product factory(String type, String nameProduct, float productPrice) {
+		
+	}
+}

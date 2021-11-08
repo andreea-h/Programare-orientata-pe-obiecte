@@ -1,0 +1,15 @@
+
+public class Problema5 {
+
+	public static String cenzurare(String text, String cuvinte[]) {
+		StringTokenizer sir = new StringTokenizer(text," ");
+		int i;
+		for (i=0; i<cuvinte.length; i++) {
+			
+		}
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

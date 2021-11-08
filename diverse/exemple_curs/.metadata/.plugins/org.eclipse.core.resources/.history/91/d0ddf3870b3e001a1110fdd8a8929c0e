@@ -1,0 +1,25 @@
+
+public class Animal {
+	
+	public String type = "mamifer";
+	public void show() {
+		System.out.println("Animalul este un: " + type);
+	}
+}
+
+class Dog extends Animal {
+	public String type = "mamifer2";
+	public Dog(String type) {
+		this.type = type;
+	}
+	public void show() {
+		System.out.println("Cainele este un: " + type); 
+	}
+}
+
+class Test {
+	public static void main(String args[]) {
+		Animal a = new Animal();
+		a.show();
+	}
+}

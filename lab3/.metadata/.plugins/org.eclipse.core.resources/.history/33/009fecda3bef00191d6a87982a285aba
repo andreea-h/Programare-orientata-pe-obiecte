@@ -1,0 +1,25 @@
+
+class Fractie {
+	
+	double numarator;
+	double numitor;
+	
+	public Fractie(double numarator, double numitor) {
+		this.numarator=numarator;
+		this.numitor=numitor;
+	}
+	
+	double suma(Fractie f) {
+		return (this.numitor*f.numarator+this.numarator*f.numitor)/(this.numitor*f.numarator);	
+	}
+	
+	public String toString() {
+		return numarator+"/"+numitor;
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

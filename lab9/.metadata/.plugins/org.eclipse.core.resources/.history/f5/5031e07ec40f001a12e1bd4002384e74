@@ -1,0 +1,47 @@
+import java.util.*;
+public class Test03 {
+
+	public static void main(String[] args) {
+		IntegerMatrix m = new IntegerMatrix();
+		ArrayList linia1=new ArrayList();
+		linia1.add(5);
+		linia1.add(3);
+		linia1.add(4);
+		linia1.add(5);
+		m.add(linia1);
+		ArrayList linia2=new ArrayList();
+		linia2.add(3);
+		linia2.add(8);
+		linia2.add(9);
+		linia2.add(10);
+		m.add(linia2);
+		ArrayList linia3=new ArrayList();
+		linia3.add(13);
+		linia3.add(85);
+		linia3.add(99);
+		linia3.add(100);
+		m.add(linia3);
+		
+		IntegerMatrix m1 = new IntegerMatrix();
+		ArrayList linia1=new ArrayList();
+		linia1.add(5);
+		linia1.add(3);
+		linia1.add(4);
+		linia1.add(5);
+		m1.add(linia1);
+		ArrayList linia2=new ArrayList();
+		linia2.add(3);
+		linia2.add(8);
+		linia2.add(9);
+		linia2.add(10);
+		m1.add(linia2);
+		ArrayList linia3=new ArrayList();
+		linia3.add(13);
+		linia3.add(85);
+		linia3.add(99);
+		linia3.add(100);
+		m1.add(linia3);
+		System.out.println(m1);
+	}
+
+}

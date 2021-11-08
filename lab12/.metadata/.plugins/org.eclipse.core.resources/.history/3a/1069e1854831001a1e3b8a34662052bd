@@ -1,0 +1,17 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		Channel channel = new Channel();
+		User a = new User("Ana");
+		User b = new User("Ion");
+		User c = new User("Maria");
+		channel.subscribe(a);
+		channel.subscribe(b);
+		channel.subscribe(c);
+		channel.notify("mesaj");
+		channel.notify("mesaj1");
+		System.out.println(a.notifications);
+	}
+
+}

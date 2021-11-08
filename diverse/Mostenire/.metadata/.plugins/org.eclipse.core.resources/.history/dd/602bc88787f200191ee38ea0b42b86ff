@@ -1,0 +1,7 @@
+
+class TestArray {
+	public static void main(String args[]) {
+		SortedArray el = new SortedArray();
+	}
+
+}

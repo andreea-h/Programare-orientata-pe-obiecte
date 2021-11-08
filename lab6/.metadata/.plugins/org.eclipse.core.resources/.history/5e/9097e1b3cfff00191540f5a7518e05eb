@@ -1,0 +1,20 @@
+
+public class Tren {
+
+}
+
+class CalatoriA extends Vagon {
+	
+}
+
+class CalatoriB extends Vagon {
+	
+}
+
+class CalatoriC extends Vagon {
+	
+}
+
+abstract class Vagon {
+	
+}

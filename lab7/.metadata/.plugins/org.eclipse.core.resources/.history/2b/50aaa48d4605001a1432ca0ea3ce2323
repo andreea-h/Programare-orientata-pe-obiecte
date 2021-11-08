@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class LinkedSet extends LinkedList {
+	public boolean add(Object obj) {
+		boolean exista = this.contains(obj);
+		if(exista==true)
+			return false; //onj exista deja in lista
+		else {
+			super.add(obj);
+			return true;
+		}
+	}
+	
+	public void add(int i, Object obj) {
+		super.add(i, obj);
+	}
+	
+	public Object set(int i, Object obj) {
+		return super.set(i, obj);
+	}
+}

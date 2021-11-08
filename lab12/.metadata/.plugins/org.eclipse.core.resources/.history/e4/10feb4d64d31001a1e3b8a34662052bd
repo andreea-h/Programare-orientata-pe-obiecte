@@ -1,0 +1,16 @@
+import java.util.*;
+import java.io.*;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		Cat obj = new Cat();
+		Director dir = new Director("Folder");
+		File file = new File("/home/andreea/Downloads/PROIECT");
+		String[] files = file.list();
+		for(String f:files) {
+			System.out.println(f);
+			
+		}
+	}
+}

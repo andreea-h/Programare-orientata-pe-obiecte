@@ -1,0 +1,13 @@
+class B {
+	int x;
+	B(int x) {
+		this.x=x;
+	}
+}
+
+class A1 {
+	B object;
+	A1(B ob) {
+		obiect = ob;
+	}
+}

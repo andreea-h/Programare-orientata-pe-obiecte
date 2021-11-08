@@ -1,0 +1,15 @@
+import java.util.*;
+import java.io.*;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		Cat obj = new Cat();
+		File file = new File("/home/andreea/Downloads/PROIECT");
+		String[] files = file.list();
+		for(String f:files) {
+			System.out.println(f);
+			Repository r = new Repository(f);
+		}
+	}
+}

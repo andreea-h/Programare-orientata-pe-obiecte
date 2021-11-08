@@ -1,0 +1,47 @@
+import java.util.*;
+
+
+class ExceptieNumar extends Exception {
+	
+	public ExceptieNumar(String mesaj) {
+		super(mesaj);
+	}
+}
+
+public class Problema3 {
+	Vector pozitive;
+	public Problema3() {
+		pozitive = new Vector();
+	}
+	//citire si adaugare in vector
+	public void myRead() throws ExceptieNumar {
+		Scanner s = new Scanner(System.in);
+		while(s.hasNext()) {
+			int nr=s.nextInt();
+			if(nr<0) {
+				String mesaj = new String("Numarul introdus este negativ!");
+				throw new ExceptieNumar(mesaj);
+			}
+			pozitive.add(nr);
+		}
+		s.close();
+	}
+	
+	int maxim() {
+		return (int)Collections.max(pozitive);
+	}
+	
+	public static void main(String args[]) {
+		Problema3 o = new Problema3();
+		try {
+			o.myRead();
+		}
+		catch(ExceptieNumar N) {
+			System.out.println("Numarul introdus este negativ!");
+		}
+		System.out.println(o.pozitive.toString());
+		System.out.println(o.maxim());
+	}
+		
+		
+}

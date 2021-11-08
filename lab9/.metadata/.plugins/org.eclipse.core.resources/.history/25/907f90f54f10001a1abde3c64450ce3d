@@ -1,0 +1,14 @@
+
+public class Test04 {
+
+	public static void main(String[] args) {
+		GenericListMethods list = new GenericListMethods();
+		list.add(10);
+		list.add(10);
+		list.add(20);
+		System.out.println(list);
+		
+
+	}
+
+}

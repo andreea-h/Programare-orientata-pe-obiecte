@@ -1,0 +1,13 @@
+
+abstract class C1 {
+	int x=2;
+	public abstract String f() ;
+}
+
+class C2 extends C1 {
+	int y=3;
+	public String f() {
+		
+	}
+
+}

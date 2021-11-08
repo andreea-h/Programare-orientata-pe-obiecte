@@ -1,0 +1,6 @@
+
+public class Pensionar {
+	int aniVechime;
+	float salariu;
+	Strategy strategy;
+}

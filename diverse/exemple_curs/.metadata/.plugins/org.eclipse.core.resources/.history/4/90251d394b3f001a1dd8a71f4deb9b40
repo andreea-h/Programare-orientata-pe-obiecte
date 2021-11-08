@@ -1,0 +1,16 @@
+class Test<String> {
+    String my;
+    public Test(String my) {
+        this.my = my;
+    }
+    public String get() {
+        return my;
+    }
+}
+
+class RunTest {
+    public static void main(String[] args) {
+        Integer i = new Test<Integer>(1).get();
+        System.out.println(i.getClass());
+    }
+}

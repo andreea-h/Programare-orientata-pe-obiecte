@@ -1,0 +1,12 @@
+
+public class Persoana {
+	private int cod ;
+	private String nume ;
+	public Persoana ( int cod , String nume ) {
+	this .cod = cod;
+	this . nume = nume ;
+	}
+	public String toString () {
+	return cod + " \t " + nume ;
+	}
+}
